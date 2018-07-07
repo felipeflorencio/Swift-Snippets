@@ -20,6 +20,10 @@ enum DatabaseUpdateType {
     case deleted([Any])
 }
 
+protocol DatabaseObjectUpdateProtocol {
+    func databaseObjectChanged(data updated: DatabaseUpdateType)
+}
+
 class CoreDataUpdaterHandle<T> {
 
     private(set) var notificationCenter: NotificationCenter = NotificationCenter.default
