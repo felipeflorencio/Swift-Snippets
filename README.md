@@ -34,16 +34,7 @@ Colletion of core data most used code that you will need
 
 
 ## Donate
-If this project helped you in any way and you feel like supporting me
-
-[![Donate](https://img.shields.io/badge/Donate-Venmo-blue.svg)](https://venmo.com/AlexanderEpstein)
-[![Donate](https://img.shields.io/badge/Donate-SquareCash-green.svg)](https://cash.me/$AlexEpstein)
-
-###### BTC: 38Q5VbH63MtouxHu8BuPNLzfY5B5RNVMDn
-###### ETH: 0xf7c60C06D298FF954917eA45206426f79d40Ac9D
-###### LTC: LWZ3T19YUk66dgkczN7dRhiXDMqSYrXUV4
-
-#### Inspired by: [Ruby-Scripts](https://github.com/jakewmeyer/Ruby-Scripts)
+If this project helped you in any way and you feel like supporting me please share new code snippets that you think is usefull and I will be happy add here to create the best swift snippet repo
 
 ## License
 
