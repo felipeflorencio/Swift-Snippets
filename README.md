@@ -1,6 +1,6 @@
 <div align="center">
 
-# Swift-Snippets <img src="https://github.com/felipeflorencio/Swift-Snippets/blob/master/icons/awesome-badge-template.png?raw=true" height="20px" width="120px">
+# Swift-Snippets <a href="https://github.com/felipeflorencio"><img src="https://github.com/felipeflorencio/Swift-Snippets/blob/master/icons/awesome-badge-template.png?raw=true" height="20px" width="120px"></a>
 
 <img src="https://github.com/felipeflorencio/Swift-Snippets/blob/master/icons/swift-cube.png?raw=true" height="250px" width="250px">
 
