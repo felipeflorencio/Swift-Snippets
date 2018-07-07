@@ -1,8 +1,8 @@
 <div align="center">
 
-# Swift-Snippets [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/felipeflorencio)
+# Swift-Snippets [![Awesome](https://cdn.rawgit.com/felipeflorencio/Swift-Snippets/53954497/icons/awesome-badge-template.svg)](https://github.com/felipeflorencio)
 
-<img src="https://ih1.redbubble.net/image.572359960.9549/st%2Csmall%2C420x460-pad%2C420x460%2Cf8f8f8.lite-1u3.jpg" height="250px" width="250px">
+<img src="https://github.com/felipeflorencio/Swift-Snippets/blob/master/icons/swift-cube.png?raw=true" height="250px" width="250px">
 
 ##### A collection of functions / helpers for easy get not daily code use , like core data manager, scroll view, keyboard dismiss, and a lot more codes that we from time to time need to use.
 
