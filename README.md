@@ -12,7 +12,7 @@
 
 
 
-### All of these scripts is suppose to work on all apple environment 
+### All of these scripts is suppose to work on all apple environment
 
 </div>
 
@@ -26,6 +26,25 @@ Colletion of core data most used code that you will need
 - `Initialize core data/*`: snippet for you initialize you core date environment;
 - `Receive update about core data update/*`: snippet for you receive any core data update, for new itens added, updated and deleted;
 
+</details>
+
+<details>
+<summary>UI</summary>
+
+Colletion of UI most used code that you will need.
+
+All the files / class has some kind of comment and help according to the need and if need.
+
+<details>
+<summary>UITextView</summary>
+
+Colletion of helpers functions for UITextView and the way to use in your project.
+
+Can be just a class or a extension, you can chose what is the best for your implementation / need.
+
+- `Auto adjust UITextView*`: snippet for you adjust your UITextView according to the text size;
+
+</details>
 </details>
 
 ## Installing

@@ -1,6 +1,5 @@
 //
 //  CoreDataUpdaterHandle.swift
-//  fortoday
 //
 //  Created by Felipe Florencio Garcia on 03/07/18.
 //  Copyright © 2018 Felipe Florencio Garcia. All rights reserved.
