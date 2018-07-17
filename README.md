@@ -74,6 +74,7 @@ Can be just a class or a extension, you can chose what is the best for your impl
 
 * For now it's just get the files according to the type and use on your project, future improvement is create a snippet tool to easy access or even a code-snippet to use direct on your project
 
+## Me - https://felipeflorencio.github.io/
 
 ## Donate
 If this project helped you in any way and you feel like supporting me please share new code snippets that you think is usefull and I will be happy add here to create the best swift snippet repo
