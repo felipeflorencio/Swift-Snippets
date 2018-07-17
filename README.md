@@ -29,11 +29,34 @@ Colletion of core data most used code that you will need
 </details>
 
 <details>
+<summary>Foundation</summary>
+
+Colletion of helpers functions for Foundation API's and the way to use in your project.
+
+Can be just a class or a extension, variable, function, you can chose what is the best for your implementation / need.
+
+- `Data formater*`: snippet for you set the formater that you want for you date string, has a default value or even you can set your own;
+
+</details>
+
+<details>
 <summary>UI</summary>
 
 Colletion of UI most used code that you will need.
 
 All the files / class has some kind of comment and help according to the need and if need.
+
+<details>
+<summary>Helpers</summary>
+
+Colletion of helpers functions for things related to view in general and the way to use in your project.
+
+Can be just a class or a extension, variable, function, you can chose what is the best for your implementation / need.
+
+- `Load view controller programmatically at start*`: snippet for you set programmatically which will be the root view controller when loading your app;
+- `Load NIB according to the view controller file*`: snippet for you load your nibs just using the view controller name and access a function that will return the nib, without need to set the bundle or path;
+
+</details>
 
 <details>
 <summary>UITextView</summary>
