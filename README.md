@@ -35,7 +35,7 @@ Colletion of helpers functions for Foundation API's and the way to use in your p
 
 Can be just a class or a extension, variable, function, you can chose what is the best for your implementation / need.
 
-- `Data formater*`: snippet for you set the formater that you want for you date string, has a default value or even you can set your own;
+- `Date formatter*`: snippet for you set the formatter that you want for you date string, has a default value or even you can set your own;
 
 </details>
 
