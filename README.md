@@ -35,7 +35,7 @@ Colletion of helpers functions for Foundation API's and the way to use in your p
 
 Can be just a class or a extension, variable, function, you can chose what is the best for your implementation / need.
 
-- `Data formater*`: snippet for you set the formater that you want for you date string, has a default value or even you can set your own;
+- `Date formatter*`: snippet for you set the formatter that you want for you date string, has a default value or even you can set your own;
 - `Computed variable inside extension using associated object*`: snippet for you be able to add computed variables inside extension using associate object;
 
 </details>
@@ -97,6 +97,7 @@ Can be just a class or a extension, you can chose what is the best for your impl
 
 * For now it's just get the files according to the type and use on your project, future improvement is create a snippet tool to easy access or even a code-snippet to use direct on your project
 
+## Me - https://felipeflorencio.github.io/
 
 ## Donate
 If this project helped you in any way and you feel like supporting me please share new code snippets that you think is usefull and I will be happy add here to create the best swift snippet repo
