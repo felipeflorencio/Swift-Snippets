@@ -36,6 +36,7 @@ Colletion of helpers functions for Foundation API's and the way to use in your p
 Can be just a class or a extension, variable, function, you can chose what is the best for your implementation / need.
 
 - `Data formater*`: snippet for you set the formater that you want for you date string, has a default value or even you can set your own;
+- `Computed variable inside extension using associated object*`: snippet for you be able to add computed variables inside extension using associate object;
 
 </details>
 
@@ -55,6 +56,28 @@ Can be just a class or a extension, variable, function, you can chose what is th
 
 - `Load view controller programmatically at start*`: snippet for you set programmatically which will be the root view controller when loading your app;
 - `Load NIB according to the view controller file*`: snippet for you load your nibs just using the view controller name and access a function that will return the nib, without need to set the bundle or path;
+
+</details>
+
+<details>
+<summary>UIImage</summary>
+
+Colletion of helpers functions for UIImage and the way to use in your project.
+
+Can be just a class or a extension, you can chose what is the best for your implementation / need.
+
+- `Tint color to your UIImage*`: snippet for you tint you image;
+
+</details>
+
+<details>
+<summary>UIButton</summary>
+
+Colletion of helpers functions for UIButton and the way to use in your project.
+
+Can be just a class or a extension, you can chose what is the best for your implementation / need.
+
+- `Add image and text horizontal aligned to your UIButton*`: snippet for you add a image and text and align both horizontal and center;
 
 </details>
 
