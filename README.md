@@ -37,6 +37,7 @@ Can be just a class or a extension, variable, function, you can chose what is th
 
 - `Date formatter*`: snippet for you set the formatter that you want for you date string, has a default value or even you can set your own;
 - `Computed variable inside extension using associated object*`: snippet for you be able to add computed variables inside extension using associate object;
+- `Delay operation*`: snippet for you to easy delay operations using the block syntax or even implement using the protocol implementation;
 
 </details>
 
