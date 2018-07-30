@@ -80,6 +80,7 @@ Colletion of helpers functions for UIButton and the way to use in your project.
 Can be just a class or a extension, you can chose what is the best for your implementation / need.
 
 - `Add image and text horizontal aligned to your UIButton*`: snippet for you add a image and text and align both horizontal and center;
+- `Rotate UIButton according to the device orientation*`: snippet for you be able to rotate a button according to the device orientation;
 
 </details>
 
