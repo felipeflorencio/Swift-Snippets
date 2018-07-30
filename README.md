@@ -57,6 +57,7 @@ Can be just a class or a extension, variable, function, you can chose what is th
 
 - `Load view controller programmatically at start*`: snippet for you set programmatically which will be the root view controller when loading your app;
 - `Load NIB according to the view controller file*`: snippet for you load your nibs just using the view controller name and access a function that will return the nib, without need to set the bundle or path;
+- `UIColor+Helper - Get the HEX from UIColor`: snippet for you get a string with the HEX representation from UIColor;
 
 </details>
 
