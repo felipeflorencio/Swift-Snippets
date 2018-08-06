@@ -97,6 +97,23 @@ Can be just a class or a extension, you can chose what is the best for your impl
 </details>
 </details>
 
+<details>
+<summary>RxSwift</summary>
+
+Colletion of RxSwift helper, function and anything related to this.
+
+All the files / class has some kind of comment and help according to the need and if need.
+
+- `Custom operator for disposeBag '>>>'*`: snippet to simple disposeBag without need type this function always;
+- `Custom operator for get last update from both observer '<->'*`: snippet to simple avoid loop about update observers that are listen each other;
+- `Unwrap option values easy*`: snippet to simple unwrap optional value without need to validate at subscriber;
+- `Is empty validation values check*`: snippet to simple check if value is empty;
+- `Validate if the value is nil*`: snippet to simple check if value is nil, as we have some situations that this is usuful;
+- `Validate if the value is void*`: snippet to simple check if value is void like we set the value to 0 so we want to do somethin on this situation without validate on subscriver value if is 'void';
+- `Get only the first value*`: snippet to only react to that action if is the first response from the observable;
+
+</details>
+
 ## Installing
 
 * For now it's just get the files according to the type and use on your project, future improvement is create a snippet tool to easy access or even a code-snippet to use direct on your project
