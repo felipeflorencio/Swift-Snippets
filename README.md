@@ -114,6 +114,17 @@ All the files / class has some kind of comment and help according to the need an
 
 </details>
 
+## Cheat Sheet
+
+<details>
+<summary>Cheat Sheet</summary>
+
+- `Content Hugging and Content Compression resistance priorities*`: Cheat Sheet for easy understand and consult how to handle this properties;
+
+<a href="https://github.com/felipeflorencio/Swift-Snippets/raw/master/Cheat-Sheet/Content-Hugging-Resistence-Priorities-Cheat-Sheet.pdf"><img src="https://github.com/felipeflorencio/Swift-Snippets/blob/master/Cheat-Sheet/Content-Hugging-Resistence-Priorities-Cheat-Sheet.png?raw=true" height="518px" width="400px"></a>
+
+</details>
+
 ## Installing
 
 * For now it's just get the files according to the type and use on your project, future improvement is create a snippet tool to easy access or even a code-snippet to use direct on your project
