@@ -63,6 +63,19 @@ Can be just a class or a extension, variable, function, you can chose what is th
 </details>
 
 <details>
+<summary>UIView</summary>
+
+Colletion of helpers functions for UIView and the way to use in your project.
+
+Can be just a class or a extension, you can chose what is the best for your implementation / need.
+
+- `Add border to your view*`: snippet for you add border to your view type;
+- `Add border color to your view*`: snippet for you add border color to your view type;
+- `Add corner radious to your view*`: snippet for you add corner raidous to your view type;
+
+</details>
+
+<details>
 <summary>UIImage</summary>
 
 Colletion of helpers functions for UIImage and the way to use in your project.
