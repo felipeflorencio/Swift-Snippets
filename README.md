@@ -26,6 +26,9 @@ Colletion of core data most used code that you will need
 - `Initialize core data/*`: snippet for you initialize you core date environment;
 - `Receive update about core data update/*`: snippet for you receive any core data update, for new itens added, updated and deleted;
 
+Tip:
+Realm provide a good cheatsheet how to use NSPredicate, as is something that you need to use on CoreData, check here: https://academy.realm.io/posts/nspredicate-cheatsheet/  
+
 </details>
 
 <details>
