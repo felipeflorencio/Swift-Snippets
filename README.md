@@ -87,7 +87,7 @@ Can be just a class or a extension, you can chose what is the best for your impl
 - `Add border color to your view*`: snippet for you add border color to your view type;
 - `Add corner radious to your view*`: snippet for you add corner raidous to your view type;
 - `Add border to specific side to your view*`: snippet for you add border to specific side or all side on your view type object;
-
+- `Add shake effect to your view*`: snippet for you add the shake effect to any view that inherit from UIView;
 </details>
 
 <details>
