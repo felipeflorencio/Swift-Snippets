@@ -142,6 +142,19 @@ All the files / class has some kind of comment and help according to the need an
 
 </details>
 
+## Utilities
+
+<details>
+<summary>Deep link on Simulator</summary>
+
+Helper that facilitate you test deep link on your running simulator.
+
+With this you can easy have you running project in debug mode, trigger the deep link that you want to test and will be triggered so you can use your breakpoints to debug . 
+
+- Link: https://github.com/felipeflorencio/iOSSimulatorDeepLinkHelper
+
+</details>
+
 ## Cheat Sheet
 
 <details>
