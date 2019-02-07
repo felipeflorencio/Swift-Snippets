@@ -61,6 +61,7 @@ Can be just a class or a extension, variable, function, you can chose what is th
 
 - `Load view controller programmatically at start*`: snippet for you set programmatically which will be the root view controller when loading your app;
 - `Load NIB according to the view controller file*`: snippet for you load your nibs just using the view controller name and access a function that will return the nib, without need to set the bundle or path;
+- `Universal tap function using closure for callback*`: snippet for you add to any UIKit object the tap functionality, working with closure, that will add the tap gesture to the object and callback your closure, and from there you can add any action that you want for example dismiss;
 
 <details>
 <summary>UIColor</summary>
