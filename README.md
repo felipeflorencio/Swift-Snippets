@@ -42,6 +42,7 @@ Can be just a class or a extension, variable, function, you can chose what is th
 - `Computed variable inside extension using associated object*`: snippet for you be able to add computed variables inside extension using associate object;
 - `Delay operation*`: snippet for you to easy delay operations using the block syntax or even implement using the protocol implementation;
 - `Array extension, secure get item*`: snippet for secure retrieve a item from array already validating if item is there and if so return, otherwise return nil;
+- `Create a full copy of any object that inhehiret from NSObject*`: snippet that make easy clone any object, this will create a totally new object with new address in memory;
 
 </details>
 

@@ -77,4 +77,18 @@ extension NSObject {
     public func associateOptionalObject<ValueType: AnyObject>(base: AnyObject, key: UnsafePointer<UInt8>, policy: objc_AssociationPolicy = AssociationPolicy.retain.objc, value: ValueType?) {
         objc_setAssociatedObject(base, key, value, policy)
     }
+
+
+    // Use this in order to create a copy from any NSObject object, will be created a new item
+    // in the memory, so completely new item in memory with not reference to the one that you
+    // are cloning.
+    //
+    // How to use:
+    // let newObject = try <your object>.copyObject()
+    //
+
+    func copyObject<T:NSObject>() throws -> T? {
+        let data = try NSKeyedArchiver.archivedData(withRootObject:self, requiringSecureCoding:false)
+        return try NSKeyedUnarchiver.unarchiveTopLevelObjectWithData(data) as? T
+    }
 }
