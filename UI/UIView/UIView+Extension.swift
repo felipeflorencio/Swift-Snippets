@@ -83,4 +83,16 @@ public extension UIView {
         animation.toValue = NSValue(cgPoint: CGPoint(x: self.center.x + 10, y: self.center.y))
         self.layer.add(animation, forKey: "position")
     }
+    
+    // Select where you want to add corner radius
+    // Sample:
+    // let view = UIView()
+    // view.roundCorners(corners: [.topLeft, .topRight], radius: 2)
+    func roundCorners(corners: UIRectCorner, radius: CGFloat) {
+        let path = UIBezierPath(roundedRect: bounds, byRoundingCorners: corners, cornerRadii: CGSize(width: radius, height: radius))
+        let mask = CAShapeLayer()
+        mask.frame = bounds
+        mask.path = path.cgPath
+        layer.mask = mask
+    }
 }
