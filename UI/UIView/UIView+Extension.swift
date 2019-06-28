@@ -56,7 +56,7 @@ public extension UIView {
     // 'you view object reference'.addBorder(view: [.Bottom])
     // As you can see we have some default values so onyl set if really need
     func addBorder(view Borders: [viewBorder], color: UIColor = UIColor.lightGray, width: CGFloat = 1.0) {
-        vBorders.forEach { vBorder in
+        Borders.forEach { vBorder in
             let border = CALayer()
             border.backgroundColor = color.cgColor
             border.name = vBorder.rawValue
