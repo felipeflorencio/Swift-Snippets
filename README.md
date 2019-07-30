@@ -21,7 +21,9 @@
 <details>
 <summary>Core Data</summary>
 
-Colletion of core data most used code that you will need
+Collection of core data most used code that you will need
+
+Link to the folder: [link](CoreData)
 
 - `Initialize core data/*`: snippet for you initialize you core date environment;
 - `Receive update about core data update/*`: snippet for you receive any core data update, for new itens added, updated and deleted;
@@ -34,31 +36,35 @@ Realm provide a good cheatsheet how to use NSPredicate, as is something that you
 <details>
 <summary>Foundation</summary>
 
-Colletion of helpers functions for Foundation API's and the way to use in your project.
+Collection of helpers functions for Foundation API's and the way to use in your project.
 
 Can be just a class or a extension, variable, function, you can chose what is the best for your implementation / need.
+
+Link to the folder: [link](Foundation)
 
 - `Date formatter*`: snippet for you set the formatter that you want for you date string, has a default value or even you can set your own;
 - `Computed variable inside extension using associated object*`: snippet for you be able to add computed variables inside extension using associate object;
 - `Delay operation*`: snippet for you to easy delay operations using the block syntax or even implement using the protocol implementation;
 - `Array extension, secure get item*`: snippet for secure retrieve a item from array already validating if item is there and if so return, otherwise return nil;
-- `Create a full copy of any object that inhehiret from NSObject*`: snippet that make easy clone any object, this will create a totally new object with new address in memory;
+- `Create a full copy of any object that inherit from NSObject*`: snippet that make easy clone any object, this will create a totally new object with new address in memory;
 
 </details>
 
 <details>
 <summary>UI</summary>
 
-Colletion of UI most used code that you will need.
+Collection of UI most used code that you will need.
 
 All the files / class has some kind of comment and help according to the need and if need.
 
 <details>
 <summary>Helpers</summary>
 
-Colletion of helpers functions for things related to view in general and the way to use in your project.
+Collection of helpers functions for things related to view in general and the way to use in your project.
 
 Can be just a class or a extension, variable, function, you can chose what is the best for your implementation / need.
+
+Link to the folder: [link](UI/Helpers)
 
 - `Load view controller programmatically at start*`: snippet for you set programmatically which will be the root view controller when loading your app;
 - `Load NIB according to the view controller file*`: snippet for you load your nibs just using the view controller name and access a function that will return the nib, without need to set the bundle or path;
@@ -67,9 +73,11 @@ Can be just a class or a extension, variable, function, you can chose what is th
 <details>
 <summary>UIColor</summary>
 
-Colletion of helpers functions for UIColor and the way to use in your project.
+Collection of helpers functions for UIColor and the way to use in your project.
 
 Can be just a class or a extension, you can chose what is the best for your implementation / need.
+
+Link to the folder: [link](UI/UIColor)
 
 - `Get the UIColor from HEX string*`: snippet for you get the UIColor according to the HEX string;
 - `Get the HEX from UIColor`: snippet for you get a string with the HEX representation from UIColor;
@@ -81,13 +89,15 @@ Can be just a class or a extension, you can chose what is the best for your impl
 <details>
 <summary>UIView</summary>
 
-Colletion of helpers functions for UIView and the way to use in your project.
+Collection of helpers functions for UIView and the way to use in your project.
 
 Can be just a class or a extension, you can chose what is the best for your implementation / need.
 
+Link to the folder: [link](UI/UIView)
+
 - `Add border to your view*`: snippet for you add border to your view type;
 - `Add border color to your view*`: snippet for you add border color to your view type;
-- `Add corner radious to your view*`: snippet for you add corner raidous to your view type;
+- `Add corner radius to your view*`: snippet for you add corner radius to your view type;
 - `Add border to specific side to your view*`: snippet for you add border to specific side or all side on your view type object;
 - `Add shake effect to your view*`: snippet for you add the shake effect to any view that inherit from UIView;
 - `Add corner radius to specific border*`: snippet for you add corner radius only to specific border that you want;
@@ -96,9 +106,11 @@ Can be just a class or a extension, you can chose what is the best for your impl
 <details>
 <summary>UIImage</summary>
 
-Colletion of helpers functions for UIImage and the way to use in your project.
+Collection of helpers functions for UIImage and the way to use in your project.
 
 Can be just a class or a extension, you can chose what is the best for your implementation / need.
+
+Link to the folder: [link](UI/UIImage)
 
 - `Tint color to your UIImage*`: snippet for you tint you image;
 
@@ -107,9 +119,11 @@ Can be just a class or a extension, you can chose what is the best for your impl
 <details>
 <summary>UIButton</summary>
 
-Colletion of helpers functions for UIButton and the way to use in your project.
+Collection of helpers functions for UIButton and the way to use in your project.
 
 Can be just a class or a extension, you can chose what is the best for your implementation / need.
+
+Link to the folder: [link](UI/UIButton)
 
 - `Add image and text horizontal aligned to your UIButton*`: snippet for you add a image and text and align both horizontal and center;
 - `Rotate UIButton according to the device orientation*`: snippet for you be able to rotate a button according to the device orientation;
@@ -119,9 +133,11 @@ Can be just a class or a extension, you can chose what is the best for your impl
 <details>
 <summary>UITextView</summary>
 
-Colletion of helpers functions for UITextView and the way to use in your project.
+Collection of helpers functions for UITextView and the way to use in your project.
 
 Can be just a class or a extension, you can chose what is the best for your implementation / need.
+
+Link to the folder: [link](UI/UITextView)
 
 - `Auto adjust UITextView*`: snippet for you adjust your UITextView according to the text size;
 
@@ -131,16 +147,18 @@ Can be just a class or a extension, you can chose what is the best for your impl
 <details>
 <summary>RxSwift</summary>
 
-Colletion of RxSwift helper, function and anything related to this.
+Collection of RxSwift helper, function and anything related to this.
 
 All the files / class has some kind of comment and help according to the need and if need.
+
+Link to the folder: [link](RxSwift)
 
 - `Custom operator for disposeBag '>>>'*`: snippet to simple disposeBag without need type this function always;
 - `Custom operator for get last update from both observer '<->'*`: snippet to simple avoid loop about update observers that are listen each other;
 - `Unwrap option values easy*`: snippet to simple unwrap optional value without need to validate at subscriber;
 - `Is empty validation values check*`: snippet to simple check if value is empty;
-- `Validate if the value is nil*`: snippet to simple check if value is nil, as we have some situations that this is usuful;
-- `Validate if the value is void*`: snippet to simple check if value is void like we set the value to 0 so we want to do somethin on this situation without validate on subscriver value if is 'void';
+- `Validate if the value is nil*`: snippet to simple check if value is nil, as we have some situations that this is useful;
+- `Validate if the value is void*`: snippet to simple check if value is void like we set the value to 0 so we want to do something on this situation without validate on subscriber value if is 'void';
 - `Get only the first value*`: snippet to only react to that action if is the first response from the observable;
 
 </details>
@@ -189,7 +207,7 @@ With this you can easy have you running project in debug mode, trigger the deep 
 ## Me - https://felipeflorencio.github.io/
 
 ## Donate
-If this project helped you in any way and you feel like supporting me please share new code snippets that you think is usefull and I will be happy add here to create the best swift snippet repo
+If this project helped you in any way and you feel like supporting me please share new code snippets that you think is useful and I will be happy add here to create the best swift snippet repo
 
 ## License
 
