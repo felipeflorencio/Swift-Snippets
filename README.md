@@ -16,7 +16,7 @@
 
 </div>
 
-## Scripts
+## Code Snippets
 
 <details>
 <summary>Core Data</summary>
@@ -145,6 +145,19 @@ All the files / class has some kind of comment and help according to the need an
 
 </details>
 
+## Code Helper
+
+<details>
+<summary>Adjust view when keyboard appears</summary>
+
+Helper class for you easy adjust any view with text field that is inside ScrollView and it's behind keyboard.
+
+With possibility to pass any other size that you want to have as difference the keyboard.
+
+- Helper Folder -> KeyboardAvoidHelper.swift - [link](Helper/KeyboardAvoidHelper.swift)
+
+</details>
+
 ## Utilities
 
 <details>
@@ -152,7 +165,7 @@ All the files / class has some kind of comment and help according to the need an
 
 Helper that facilitate you test deep link on your running simulator.
 
-With this you can easy have you running project in debug mode, trigger the deep link that you want to test and will be triggered so you can use your breakpoints to debug . 
+With this you can easy have you running project in debug mode, trigger the deep link that you want to test and will be triggered so you can use your breakpoints to debug .
 
 - Link: https://github.com/felipeflorencio/iOSSimulatorDeepLinkHelper
 
