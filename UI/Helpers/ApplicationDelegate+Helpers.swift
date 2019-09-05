@@ -29,7 +29,7 @@ extension AppDelegate {
         
         let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
         
-        guard let initialViewController = storyboard.instantiateInitialViewController() as? ViewController else {
+        guard let initialViewController = storyboard.instantiateInitialViewController() as? UIViewController else {
             fatalError("No initial view controller set")
         }
         
