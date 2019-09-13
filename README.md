@@ -71,6 +71,7 @@ Link to the folder: [link](UI/Helpers)
 - `Load view controller programmatically at start*`: snippet for you set programmatically which will be the root view controller when loading your app;
 - `Load NIB according to the view controller file*`: snippet for you load your nibs just using the view controller name and access a function that will return the nib, without need to set the bundle or path;
 - `Universal tap function using closure for callback*`: snippet for you add to any UIKit object the tap functionality, working with closure, that will add the tap gesture to the object and callback your closure, and from there you can add any action that you want for example dismiss;
+- `Load from anywhere the view controller that is being presented*`: Added helper method to get top view controller that is presented
 
 <details>
 <summary>UIColor</summary>
