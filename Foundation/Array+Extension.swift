@@ -20,5 +20,27 @@ public extension Array {
      */
     public subscript (safe index: Int) -> Element? {
         return indices ~= index ? self[index] : nil
+    }  
+}
+
+    // If you have one array and want to remove duplicated itens from him, you can
+    // easily use this helper functionar that will do this for you 
+    // How to use
+    // let array = [1, 2, 3, 3, 2, 1, 4]
+    // array.unify() // [1, 2, 3, 4]
+
+public extension Array where Element: Hashable {
+    public mutating func unify() {
+        self = unified()
+    }
+}
+
+public extension Collection where Element: Hashable {
+    public func unified() -> [Element] {
+        return reduce(into: []) {
+            if !$0.contains($1) {
+                $0.append($1)
+            }
+        }
     }
 }
