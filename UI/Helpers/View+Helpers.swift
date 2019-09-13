@@ -19,4 +19,13 @@ class ViewHelpers: NSObject {
         return T(nibName: String(describing: self), bundle: Bundle(for: T.self))
     }
     
+    // Get the top UIViewController anywhere
+    func getTopViewController() -> UIViewController? {
+        var topController = UIApplication.shared.keyWindow?.rootViewController
+        while ((topController?.presentedViewController) != nil) {
+            topController = topController?.presentedViewController
+        }
+        
+        return topController
+    } 
 }
