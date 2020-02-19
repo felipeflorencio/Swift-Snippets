@@ -166,16 +166,15 @@ Link to the folder: [link](RxSwift)
 
 </details>
 
-## Code Helper
-
 <details>
-<summary>Adjust view when keyboard appears</summary>
+<summary>Helpers - General</summary>
 
-Helper class for you easy adjust any view with text field that is inside ScrollView and it's behind keyboard.
+Folder that contains general code helpers, that can help you with tasks that are not that specific.
 
-With possibility to pass any other size that you want to have as difference the keyboard.
+Link to the folder: [link](Helper)
 
-- Helper Folder -> KeyboardAvoidHelper.swift - [link](Helper/KeyboardAvoidHelper.swift)
+- `Keyboard Avoid Helper*`: Helper class for you easy adjust any view with text field that is inside ScrollView and it's behind keyboard. With possibility to pass any other size that you want to have as difference the keyboard. - [link](Helper/KeyboardAvoidHelper.swift)
+- `Identify if user set the device to mute*`: Helper that allow you to identify programmatically if user set the device to muted / silence state. - [link](Helper/DeviceStatus.swift)
 
 </details>
 
