@@ -104,6 +104,7 @@ Link to the folder: [link](UI/UIView)
 - `Add border to specific side to your view*`: snippet for you add border to specific side or all side on your view type object;
 - `Add shake effect to your view*`: snippet for you add the shake effect to any view that inherit from UIView;
 - `Add corner radius to specific border*`: snippet for you add corner radius only to specific border that you want;
+- `Add loader to any UIView using extension*`: snippet for you add a loader to any UIView in the center;
 </details>
 
 <details>
