@@ -105,6 +105,7 @@ Link to the folder: [link](UI/UIView)
 - `Add shake effect to your view*`: snippet for you add the shake effect to any view that inherit from UIView;
 - `Add corner radius to specific border*`: snippet for you add corner radius only to specific border that you want;
 - `Add loader to any UIView using extension*`: snippet for you add a loader to any UIView in the center;
+- `Add a method to convert rect between two views*`: snippet for you be able to convert one CGRect between one view and another one;
 </details>
 
 <details>
