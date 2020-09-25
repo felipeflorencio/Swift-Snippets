@@ -119,4 +119,34 @@ public extension UIView {
         loading?.stopAnimating()
         loading?.removeFromSuperview()
     }
+    
+    // This is a helper to get the rect from a view in relation of another view
+    // very useful when you want get the where a view are in relation to super view
+    // One of the uses is you want to show a popover from a touch in a table view cell
+    // in relation of you view controller.
+    // How to use it:
+    // view1.convertedFrame(from: view2)
+    func convertedFrame(from subview: UIView) -> CGRect? {
+        // check if `subview` is a subview of self
+        guard subview.isDescendant(of: self) else {
+            return nil
+        }
+
+        var frame = subview.frame
+        if subview.superview == nil {
+            return frame
+        }
+
+        var superview = subview.superview
+        while superview != self {
+            frame = superview!.convert(frame, to: superview!.superview)
+            if superview!.superview == nil {
+                break
+            } else {
+                superview = superview!.superview
+            }
+        }
+
+        return superview!.convert(frame, to: self)
+    }
 }
