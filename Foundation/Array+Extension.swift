@@ -44,3 +44,15 @@ public extension Collection where Element: Hashable {
         }
     }
 }
+ // This way you can have unique elements in your array, beside use Set 
+ // and you could do this using Set and after to array again, buy this helper
+ // will reduce the amount of code that you use, this is how you can use
+ // Example:
+ // let array = [1, 2, 2, 4, 5, 5]
+ // array.unique()
+public extension Sequence where Element: Hashable {
+    func unique() -> [Element] {
+        var set: Set<Element> = []
+        return filter { set.insert($0).inserted }
+    }
+}
