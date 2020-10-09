@@ -47,6 +47,7 @@ Link to the folder: [link](Foundation)
 - `Delay operation*`: snippet for you to easy delay operations using the block syntax or even implement using the protocol implementation;
 - `Array extension, secure get item*`: snippet for secure retrieve a item from array already validating if item is there and if so return, otherwise return nil;
 - `Array extension, remove duplicated itens`: snippet that allow you to simple unify your array removing the duplicated itens;
+- `Array extension, return unique itens`: snippet that allow you to simple have unique itens inside an array;
 - `Dictionary extension, get value if exist passing type*`: snippet for get the value of a dictionary if exist the same time that validate if is the type that you pass, if not exist or not the type throw an error;
 - `Create a full copy of any object that inherit from NSObject*`: snippet that make easy clone any object, this will create a totally new object with new address in memory;
 
